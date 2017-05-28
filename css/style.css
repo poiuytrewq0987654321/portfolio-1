@@ -130,6 +130,25 @@ section#about figure img {
     font-weight: 100;
     line-height: 24px;
 }
-
-
 /* about style STOP */
+
+/* skills style START */
+
+section#skills{
+    overflow: hidden;
+    text-align: center;
+}
+h2.skills-header{
+    margin: 30px 0 30px 0;
+}
+
+figure{
+    float:left;
+    text-align: center;
+}
+
+
+
+
+
+/* skill style STOP */
