@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio nr 1</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio nr 1</title>
+    <!--    google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
+
 <body>
     <nav id="menu">
-    <ul>
-        <li class="menu-item"><a href="#about">o mnie</a></li>
-        <li class="menu-item"><a href="#skills">umiejętności</a></li>
-        <li class="menu-item"><a href="#portfolio">portfolio</a></li>
-        <li class="menu-item"><a href="#contact">Kontakt</a></li>
-    </ul>
-</nav>
-    
-  <header id="header">
-   <img src="img/header-background.jpg" alt="background-header">
-    <h1 class="main-header-text last">Bartosz Adamiec</h1>
-    <p class="main-header-text">Front-End developer</p>
+        <ul>
+            <li class="menu-item"><a href="#about">o mnie</a></li>
+            <li class="menu-item"><a href="#skills">umiejętności</a></li>
+            <li class="menu-item"><a href="#portfolio">portfolio</a></li>
+            <li class="menu-item"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <header id="main-header">
+        <div id="header-kontener">
+            <h1 class="main-header-text">Bartosz <span class="text-color">Adamiec</span></h1>
+            <h2 class="main-header-text">Front-End Developer</h2>
+        </div>
     </header>
 
-<section id="about">
-   <h2 class="about-header last">O mnie</h2>
-   <div class="about-container">
-       <img src="img/jan-nowak.jpg" alt="jan-nowak">
-   </div>
-   <div class="about-container2">
-       <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.lorem</p>
-   </div>
-</section>
-<br>
-<section id="skills">
-    <h2 class="skills-header last">Moje umiejętności</h2>
-    <p class="skills-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.lorem</p>
-</section>
+    <section id="about">
+        <h2>O <span class="text-color">mnie</span></h2>
+        <figure class="about-container">
+            <img src="img/jan-nowak.jpg" alt="jan-nowak">
+        </figure>
+        <div class="about-container">
+            <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.lorem</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2 class="skills-header">Moje <span class="text-color">umiejętności</span></h2>
+        <p class="skills-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.lorem</p>
+    </section>
 
-<section id="portfolio">
-    <h2 class="portfolio-header last">Moje umiejętności</h2>
-    <p class="portfolio-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.</p>
-</section>
+    <section id="portfolio">
+        <h2 class="portfolio-header">Moje <span class="text-color">portfolio</span></h2>
+        <p class="portfolio-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed culpa amet ad, quasi! Eos non velit, quia architecto earum eveniet commodi veniam, dolor tempora, molestias aspernatur, neque quod nihil.</p>
+    </section>
 
-  <footer id="contact">
-    <h2 id="contact-header">Bartosz Adamiec</h2>
-    <address id="contact-content">
+    <footer id="contact">
+        <h2 id="contact-header">Bartosz <span class="text-color">Adamiec</span></h2>
+        <address id="contact-content">
       ul. Mostowa 6/13<br /> 
       31-061 Kraków<br />
       te.:606 607 608
@@ -56,8 +62,9 @@
       
       <p id="copyright">Copyright(znaczek) Bartosz Adamiec</p>
     </address>
-</footer>
+    </footer>
 
 
 </body>
+
 </html>
