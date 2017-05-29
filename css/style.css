@@ -14,6 +14,10 @@ body {
     /*background roboczy*/
     margin: 0;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+    margin: 0;
+}
 
 a {
     transition: all .3s;
@@ -84,14 +88,10 @@ header#main-header div#header-kontener {
 
 header#main-header h1.main-header-text {
     font-size: 100px;
-    font-weight: 100;
-    margin: 0;
 }
 
 header#main-header h2.main-header-text {
     font-size: 40px;
-    font-weight: 100;
-    margin: 0;
 }
 
 
@@ -104,15 +104,16 @@ section#about {
     background-color: #f9fcfe;
     overflow: hidden;
     padding: 30px 80px;
-    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 41px -1px rgba(0,0,0,0.57);
+
 }
 
 section#about h2{
     text-align: center;
-    margin:0 0 30px 0;
+    margin:30px;
 }
 
-section#about figure {
+section#about figure.about-container {
     margin:0;
     width:50%;
     float:left;
@@ -126,7 +127,7 @@ section#about figure img {
     border-radius: 10px;
 }
 
-#about div p{
+section#about div p{
     font-weight: 100;
     line-height: 24px;
 }
@@ -137,18 +138,72 @@ section#about figure img {
 section#skills{
     overflow: hidden;
     text-align: center;
+    background-color: white;
 }
-h2.skills-header{
+section#skills h2.skills-header{
     margin: 30px 0 30px 0;
 }
 
-figure{
+section#skills div.skills-icons{
+    overflow:hidden;
+    left:0;
+    right:0;
+    margin:auto;
+    display: inline-block;
+    padding:30px;
+}
+
+section#skills figure{
     float:left;
     text-align: center;
 }
 
-
-
-
+section#skills figcaption{
+    padding: 10px;
+}
 
 /* skill style STOP */
+
+/* portfolio style START */
+
+section#portfolio{
+    overflow:hidden;
+    background-color: #fff;
+}
+section#portfolio h2.portfolio-header{
+    text-align: center;
+}
+
+section#portfolio div{
+    width: 30%;
+    float:left;
+    display: inline-block;
+}
+
+section#portfolio div#portfolio-img-1{
+    max-width: 100%;
+    max-height: 350px;
+    background-image: url(../img/portfolio1.jpg);
+    background-size: 100%;
+}
+
+section#portfolio div#portfolio-img-2{
+    max-width: 100%;
+    max-height: 350px;
+    background-image: url(../img/portfolio2.jpg);
+}
+
+section#portfolio div#portfolio-img-big{
+    max-width: 100%;
+    max-height: 350px;
+    background-image: url(../img/portfolio4.jpg);
+}
+
+section#portfolio div#portfolio-img-1 div#border div{
+    width:100%;
+    text-align: justify;
+}
+
+
+
+/* portfolio style STOP */
