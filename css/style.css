@@ -46,8 +46,13 @@ nav#menu {
     width: 100%;
 }
 
+nav#menu .toggle, #drop {
+    display:none;
+}
+
 nav#menu>ul {
     margin: 0;
+    text-align: right;
 }
 
 nav#menu>ul>li.menu-item {
@@ -79,7 +84,6 @@ header#main-header {
     background-image: url('../img/header-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-position: center;
     height: 90vh;
     background-size: 100%;
