@@ -176,32 +176,36 @@ section#skills figcaption {
 
 /* portfolio style START */
 
-section#portfolio {
+#portfolio #portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio #portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+
+section#portfolio .portfolio-items {
     text-align: center;
-    padding: 40px;
+    font-size:0;
+    color:#fff;
 }
 
-section#portfolio h2.portfolio-header{
-    padding:40px;
-}
-
-section#portfolio div.portfolio-kontener {
-    text-align: center;
-    font-size: 0em;
-    color:white;
-}
-
-section#portfolio div.portfolio-kontener div.portfolio-img {
+#portfolio .portfolio-items .portfolio-item {
     width: 33%;
     float: left;
-    height: 300px;
+    height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
 }
 
-div-portfolio-kontener, div.portfolio-border{
+#portfolio .portfolio-items .portfolio-item .item-mask{
     background-color: rgba(42,61,79,0.8);
     width:100%;
     height:100%;
@@ -211,46 +215,38 @@ div-portfolio-kontener, div.portfolio-border{
     font-size:initial;
 }
 
-div-portfolio-kontener, div.portfolio-border:hover{
+#portfolio .portfolio-items .portfolio-item .item-mask:hover{
     opacity: 1;
 }
 
-section#portfolio div.portfolio-kontener div.portfolio-img div.portfolio-border {
-    height:100%;
-    width:100%;
-    border:1px solid white;
-    padding:10px;
+#portfolio .portfolio-items .portfolio-item .item-mask .portfolio-item-content{
+    height:330px;
+    border: 1px solid white;
+    margin:10px;
     position: relative;
 }
 
-section#portfolio div.portfolio-kontener div.portfolio-img div.portfolio-kontent {
-    color:#fff;
+#portfolio .portfolio-items .portfolio-item .item-mask .portfolio-item-content .item-content-inner{
+    color:white;
     position: absolute;
     top:50%;
     transform: translateY(-50%);
     right:0;
     left:0;
-    padding:20px;
+    padding:5px;
 }
 
-section#portfolio div.portfolio-kontener div#portfolio-background1 {
-    background-image: url(../img/portfolio1.jpg);
-}
-
-section#portfolio div.portfolio-kontener div#portfolio-background2 {
-    background-image: url(../img/portfolio2.jpg);
-}
-
-section#portfolio div.portfolio-kontener div#portfolio-background3 {
-    background-image: url(../img/portfolio3.jpg);
-}
-
-section#portfolio a.project-link{
+#portfolio .portfolio-items .portfolio-item .item-mask .portfolio-item-content .item-content-inner a{
     color:white;
 }
 
-section#portfolio a.project-link:hover{
-    color:limegreen;
+#portfolio .portfolio-items .portfolio-item .item-mask .portfolio-item-content .item-content-inner a:hover{
+    color:#1ac056;
+}
+
+.portfolio h2{
+    text-align: center;
+    padding:40px;
 }
 
 /* portfolio style STOP */
@@ -258,18 +254,61 @@ section#portfolio a.project-link:hover{
 
 /* contact style START */
 
-section#contact{
+
+#contact{
+    overflow:hidden;
+    color:#fff;
     background-color:#213b50;
-    overflow: hidden;
+    
 }
 
-section#contact div.contact-kontent{
+
+#contact .contact-data{
+    width:50%;
     float:left;
+    
 }
 
-textarea{
-    height:70px;
+#contact .contact-data h2{
+    text-align:left;
+    font-size:38px;
 }
+
+#contact .contact-data address{
+    font-style:normal;
+    margin:72px 0px;
+    line-height: 25px;
+}
+
+#contact .contact-data address a{
+    color:#1ac085;
+}
+
+#contact .contact-data .contact-social-icons a{
+    display:inline-block;
+    border: 1px solid #fff;
+    height:38px;
+    width:38px;
+    text-align: center;
+    line-height: 38px;
+    margin-right:30px;
+    font-size:22px;
+    color:#fff;
+}
+
+#contact .contact-data .contact-social-icons a:hover{
+    color:#213b50;
+    border:1px solid @213b50;
+    background-color:#fff;
+}
+
+
+#contact .contact-form{
+    width:50%;
+    float:left;
+    margin-top:100px;
+}
+
 
 input[type="text"],
 input[type="email"],
@@ -279,11 +318,15 @@ select {
     box-shadow: none;
     border: 1px solid #213b50;
     color: #fff;
-    width: 250px;
-    margin-bottom: 10px;
-    padding: 5px 0;
+    width: 500px;
     outline: none;
+    height:35px;
 }
+
+textarea{
+    height:100px;
+}
+
 
 input:focus,
 textarea:focus,
