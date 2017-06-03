@@ -143,7 +143,6 @@ section#about div p {
 /* skills style START */
 
 section#skills {
-    overflow: hidden;
     text-align: center;
 }
 
@@ -188,14 +187,15 @@ section#skills figcaption {
 }
 
 
-section#portfolio .portfolio-items {
+#portfolio .portfolio-items {
     text-align: center;
     font-size:0;
     color:#fff;
+    overflow: hidden;
 }
 
 #portfolio .portfolio-items .portfolio-item {
-    width: 33%;
+    width: 33.3333%;
     float: left;
     height: 350px;
     background-size: cover;
@@ -255,11 +255,10 @@ section#portfolio .portfolio-items {
 
 
 #contact{
+    background-color: #213b50;
     overflow:hidden;
     color:#fff;
-    background-color:#213b50;
 }
-
 
 #contact .contact-data{
     width:50%;
@@ -333,7 +332,6 @@ select:focus {
 }
 
 input[type="submit"] {
-    margin-top:5px;
     background-color: #1ac056;
     font-weight: 400;
     color: #fff;
@@ -341,6 +339,9 @@ input[type="submit"] {
     border:1px solid #213b50;
     padding:15px;
     border:1px solid white;
+    float:right;
+    margin:20px;
+    
 }
 
 input[type="submit"]:hover {
@@ -353,12 +354,14 @@ input[type="submit"]:hover {
 
 
 /* footer style START */
+
 footer{
- background-color: #213b80;
+    background-color: #142634;
+    color:#fff;
+    padding:0 80px;
+    
 }
-
-
-
-
-
+footer p{
+    margin: 0;
+}
 
