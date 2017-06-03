@@ -263,6 +263,7 @@ section#skills figcaption {
 #contact .contact-data{
     width:50%;
     float:left;
+    padding: 0 80px;
 }
 
 #contact .contact-data h2{
@@ -300,7 +301,7 @@ section#skills figcaption {
 
 
 #contact .contact-form{
-    width:50%;
+    width:40%;
     float:left;
     margin-top:100px;
 }
@@ -314,7 +315,7 @@ select {
     box-shadow: none;
     border: 1px solid #213b50;
     color: #fff;
-    width: 600px;
+    width: 100%;
     outline: none;
     height:35px;
 }
@@ -340,7 +341,7 @@ input[type="submit"] {
     padding:15px;
     border:1px solid white;
     float:right;
-    margin:20px;
+    margin:20px 0 20px 20px;
     
 }
 
