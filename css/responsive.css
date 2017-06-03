@@ -48,6 +48,11 @@
         font-size:1.5em;
     }
     
+    #portfolio .portfolio-items .portfolio-item {
+        width: 100%;
+    }
+    #portfolio .portfolio-items .portfolio-item:last-child {
+        width: 100%;
+    }
+    
 }
-
-@media all and (max-width: 480px) {}
