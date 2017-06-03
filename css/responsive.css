@@ -8,9 +8,13 @@
     }
 }
 
-/*
 @media all and (max-width: 768px){
-    
+    #portfolio .portfolio-items .portfolio-item{
+        width:75%;
+    } 
+    #portfolio .portfolio-items .portfolio-item:last-child{
+        width:75%;
+    } 
 }
 
 @media all and (max-width: 640px){
@@ -19,4 +23,4 @@
 
 @media all and (max-width: 480px){
     
-}*/
+}
