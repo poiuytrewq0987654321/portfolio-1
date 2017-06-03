@@ -2,8 +2,8 @@
 
 * {
     box-sizing: border-box;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
 }
 
 body {
@@ -145,7 +145,6 @@ section#about div p {
 section#skills {
     overflow: hidden;
     text-align: center;
-    box-shadow: 0px 11px 41px -1px rgba(0, 0, 0, 0.57);
 }
 
 section#skills h2.skills-header {
@@ -259,7 +258,6 @@ section#portfolio .portfolio-items {
     overflow:hidden;
     color:#fff;
     background-color:#213b50;
-    
 }
 
 
@@ -275,7 +273,7 @@ section#portfolio .portfolio-items {
 
 #contact .contact-data address{
     font-style:normal;
-    margin:72px 0px;
+    margin:72px 0;
     line-height: 25px;
 }
 
